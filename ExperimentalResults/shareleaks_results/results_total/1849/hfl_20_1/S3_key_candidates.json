@@ -1,0 +1,3337 @@
+{
+  "coordinate_system": "reference_photo_pixels",
+  "distance_definition": "perpendicular center-to-infinite-projected-line",
+  "threshold_rule": "distance <= min(cell_width, cell_height)/2",
+  "frames": [
+    {
+      "frame_id": 7,
+      "source_frame_id": 34,
+      "timestamp_ms": 1437.325905292479,
+      "frame_name": "frame_00007.jpg",
+      "status": "single_candidate",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1051.992919921875,
+              1562.021240234375
+            ],
+            "upper": [
+              880.925048828125,
+              1219.841552734375
+            ]
+          },
+          "ranking": [
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                617.83,
+                693.585
+              ],
+              "distance": 0.1896,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                644.628,
+                747.188
+              ],
+              "distance": 29.7707,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                727.018,
+                911.989
+              ],
+              "distance": 33.5195,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                671.826,
+                801.59
+              ],
+              "distance": 60.1781,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                698.921,
+                855.786
+              ],
+              "distance": 61.0199,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                671.723,
+                801.383
+              ],
+              "distance": 91.4273,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                644.925,
+                747.781
+              ],
+              "distance": 121.3876,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                753.913,
+                965.785
+              ],
+              "distance": 153.8231,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                726.115,
+                910.182
+              ],
+              "distance": 182.6651,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                698.917,
+                855.779
+              ],
+              "distance": 213.0725,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                672.119,
+                802.176
+              ],
+              "distance": 243.0328,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                617.83,
+                693.585
+              ],
+              "distance": 0.1896,
+              "threshold": 29.5,
+              "hit": true
+            }
+          ],
+          "status": "single_candidate",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 8,
+      "source_frame_id": 38,
+      "timestamp_ms": 1604.4568245125347,
+      "frame_name": "frame_00008.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1043.5682373046875,
+              1544.9169921875
+            ],
+            "upper": [
+              892.6324462890625,
+              1243.65380859375
+            ]
+          },
+          "ranking": [
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                617.201,
+                693.9
+              ],
+              "distance": 0.894,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                644.033,
+                747.457
+              ],
+              "distance": 29.1176,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                726.589,
+                912.236
+              ],
+              "distance": 34.0143,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                671.266,
+                801.813
+              ],
+              "distance": 59.5773,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                698.454,
+                856.079
+              ],
+              "distance": 61.5686,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                671.221,
+                801.723
+              ],
+              "distance": 92.0283,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                644.388,
+                748.166
+              ],
+              "distance": 122.04,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                753.576,
+                966.101
+              ],
+              "distance": 154.2661,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                725.741,
+                910.545
+              ],
+              "distance": 183.1616,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                698.509,
+                856.189
+              ],
+              "distance": 213.6212,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                671.676,
+                802.632
+              ],
+              "distance": 243.6329,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                617.201,
+                693.9
+              ],
+              "distance": 0.894,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                644.033,
+                747.457
+              ],
+              "distance": 29.1176,
+              "threshold": 29.5,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 15,
+      "source_frame_id": 72,
+      "timestamp_ms": 3041.782729805014,
+      "frame_name": "frame_00015.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1113.6959228515625,
+              1580.2095947265625
+            ],
+            "upper": [
+              948.73291015625,
+              1235.4444580078125
+            ]
+          },
+          "ranking": [
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                753.922,
+                828.298
+              ],
+              "distance": 0.4676,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                781.244,
+                885.4
+              ],
+              "distance": 26.8761,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                727.447,
+                772.966
+              ],
+              "distance": 28.8823,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                701.361,
+                718.448
+              ],
+              "distance": 57.8005,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                676.118,
+                665.692
+              ],
+              "distance": 64.4282,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                702.204,
+                720.21
+              ],
+              "distance": 93.3465,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                806.3,
+                937.766
+              ],
+              "distance": 94.4506,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                779.258,
+                881.249
+              ],
+              "distance": 122.2122,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                728.679,
+                775.542
+              ],
+              "distance": 122.6964,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                752.782,
+                825.917
+              ],
+              "distance": 151.5621,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                726.696,
+                771.398
+              ],
+              "distance": 180.4804,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                753.922,
+                828.298
+              ],
+              "distance": 0.4676,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                781.244,
+                885.4
+              ],
+              "distance": 26.8761,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                727.447,
+                772.966
+              ],
+              "distance": 28.8823,
+              "threshold": 29.5,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 16,
+      "source_frame_id": 76,
+      "timestamp_ms": 3208.9136490250694,
+      "frame_name": "frame_00016.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1108.2071533203125,
+              1562.601318359375
+            ],
+            "upper": [
+              948.0912475585938,
+              1235.1925048828125
+            ]
+          },
+          "ranking": [
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                750.032,
+                830.196
+              ],
+              "distance": 3.8606,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                777.741,
+                886.857
+              ],
+              "distance": 23.0886,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                723.195,
+                775.32
+              ],
+              "distance": 33.7343,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                670.602,
+                667.776
+              ],
+              "distance": 58.5551,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                696.754,
+                721.251
+              ],
+              "distance": 63.1687,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                697.044,
+                721.844
+              ],
+              "distance": 87.9895,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                803.7,
+                939.938
+              ],
+              "distance": 97.7369,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                723.88,
+                776.72
+              ],
+              "distance": 117.8632,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                776.28,
+                883.869
+              ],
+              "distance": 126.0336,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                749.444,
+                828.993
+              ],
+              "distance": 155.9073,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                723.002,
+                774.924
+              ],
+              "distance": 185.3417,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                750.032,
+                830.196
+              ],
+              "distance": 3.8606,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                777.741,
+                886.857
+              ],
+              "distance": 23.0886,
+              "threshold": 30.0,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 17,
+      "source_frame_id": 81,
+      "timestamp_ms": 3409.4707520891366,
+      "frame_name": "frame_00017.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1087.902587890625,
+              1531.0419921875
+            ],
+            "upper": [
+              987.6183471679688,
+              1321.7760009765625
+            ]
+          },
+          "ranking": [
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                751.655,
+                829.384
+              ],
+              "distance": 2.0461,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                779.004,
+                886.455
+              ],
+              "distance": 24.4005,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                725.154,
+                774.084
+              ],
+              "distance": 31.4329,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                699.043,
+                719.597
+              ],
+              "distance": 60.3875,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                673.737,
+                666.79
+              ],
+              "distance": 61.8061,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                699.848,
+                721.277
+              ],
+              "distance": 90.7607,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                804.124,
+                938.872
+              ],
+              "distance": 96.8913,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                726.349,
+                776.577
+              ],
+              "distance": 120.1475,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                777.054,
+                882.386
+              ],
+              "distance": 124.6906,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                750.553,
+                827.086
+              ],
+              "distance": 154.0773,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                724.442,
+                772.599
+              ],
+              "distance": 183.032,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                751.655,
+                829.384
+              ],
+              "distance": 2.0461,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                779.004,
+                886.455
+              ],
+              "distance": 24.4005,
+              "threshold": 30.0,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 26,
+      "source_frame_id": 123,
+      "timestamp_ms": 5214.484679665738,
+      "frame_name": "frame_00026.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1026.1387939453125,
+              1567.7867431640625
+            ],
+            "upper": [
+              862.8543090820312,
+              1255.020751953125
+            ]
+          },
+          "ranking": [
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                607.534,
+                765.964
+              ],
+              "distance": 11.8061,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                635.431,
+                819.4
+              ],
+              "distance": 19.6639,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                580.047,
+                713.314
+              ],
+              "distance": 42.8133,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                693.304,
+                930.253
+              ],
+              "distance": 71.8535,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                664.452,
+                874.989
+              ],
+              "distance": 100.4523,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                636.555,
+                821.553
+              ],
+              "distance": 131.9222,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                609.069,
+                768.903
+              ],
+              "distance": 162.9294,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                722.111,
+                985.432
+              ],
+              "distance": 191.0832,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                693.581,
+                930.783
+              ],
+              "distance": 221.0116,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                665.684,
+                877.347
+              ],
+              "distance": 252.4816,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                638.197,
+                824.697
+              ],
+              "distance": 283.4888,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                607.534,
+                765.964
+              ],
+              "distance": 11.8061,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                635.431,
+                819.4
+              ],
+              "distance": 19.6639,
+              "threshold": 29.5,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 27,
+      "source_frame_id": 128,
+      "timestamp_ms": 5415.041782729805,
+      "frame_name": "frame_00027.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1011.1881103515625,
+              1544.5233154296875
+            ],
+            "upper": [
+              862.833984375,
+              1251.5521240234375
+            ]
+          },
+          "ranking": [
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                614.956,
+                762.041
+              ],
+              "distance": 3.4115,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                642.363,
+                816.163
+              ],
+              "distance": 27.3082,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                587.953,
+                708.715
+              ],
+              "distance": 33.6794,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                698.339,
+                926.705
+              ],
+              "distance": 65.7537,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                670.016,
+                870.774
+              ],
+              "distance": 93.5767,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                642.61,
+                816.652
+              ],
+              "distance": 124.2964,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                615.607,
+                763.326
+              ],
+              "distance": 154.5643,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                725.788,
+                980.913
+              ],
+              "distance": 185.7465,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                697.772,
+                925.587
+              ],
+              "distance": 214.9077,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                670.366,
+                871.465
+              ],
+              "distance": 245.6274,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                643.363,
+                818.138
+              ],
+              "distance": 275.8953,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                614.956,
+                762.041
+              ],
+              "distance": 3.4115,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                642.363,
+                816.163
+              ],
+              "distance": 27.3082,
+              "threshold": 29.5,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 28,
+      "source_frame_id": 133,
+      "timestamp_ms": 5615.598885793872,
+      "frame_name": "frame_00028.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1016.0161743164062,
+              1541.2716064453125
+            ],
+            "upper": [
+              865.602783203125,
+              1253.1273193359375
+            ]
+          },
+          "ranking": [
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                610.493,
+                764.419
+              ],
+              "distance": 8.4679,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                638.389,
+                817.857
+              ],
+              "distance": 22.9993,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                583.008,
+                711.766
+              ],
+              "distance": 39.4724,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                696.254,
+                928.71
+              ],
+              "distance": 68.5239,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                667.405,
+                873.442
+              ],
+              "distance": 97.1198,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                639.509,
+                820.004
+              ],
+              "distance": 128.587,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                612.024,
+                767.351
+              ],
+              "distance": 159.5914,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                725.056,
+                983.885
+              ],
+              "distance": 187.7565,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                696.528,
+                929.233
+              ],
+              "distance": 217.6821,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                668.632,
+                875.795
+              ],
+              "distance": 249.1492,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                641.147,
+                823.142
+              ],
+              "distance": 280.1537,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                610.493,
+                764.419
+              ],
+              "distance": 8.4679,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                638.389,
+                817.857
+              ],
+              "distance": 22.9993,
+              "threshold": 29.5,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 36,
+      "source_frame_id": 170,
+      "timestamp_ms": 7220.055710306407,
+      "frame_name": "frame_00036.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1198.8487548828125,
+              1576.7760009765625
+            ],
+            "upper": [
+              1070.9281005859375,
+              1290.5997314453125
+            ]
+          },
+          "ranking": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                894.408,
+                895.7
+              ],
+              "distance": 3.1855,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                868.555,
+                837.863
+              ],
+              "distance": 22.9425,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                795.611,
+                674.677
+              ],
+              "distance": 46.1263,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                843.221,
+                781.187
+              ],
+              "distance": 50.6923,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                820.572,
+                730.519
+              ],
+              "distance": 73.468,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                818.259,
+                725.345
+              ],
+              "distance": 78.034,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                845.906,
+                787.194
+              ],
+              "distance": 101.2178,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                872.009,
+                845.591
+              ],
+              "distance": 125.9764,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                773.045,
+                624.195
+              ],
+              "distance": 169.8302,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                798.007,
+                680.037
+              ],
+              "distance": 197.1719,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                823.341,
+                736.713
+              ],
+              "distance": 224.9217,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                894.408,
+                895.7
+              ],
+              "distance": 3.1855,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                868.555,
+                837.863
+              ],
+              "distance": 22.9425,
+              "threshold": 29.5,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 37,
+      "source_frame_id": 175,
+      "timestamp_ms": 7454.038997214485,
+      "frame_name": "frame_00037.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1194.35791015625,
+              1555.9146728515625
+            ],
+            "upper": [
+              1070.2371826171875,
+              1283.189697265625
+            ]
+          },
+          "ranking": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                893.966,
+                895.878
+              ],
+              "distance": 2.7097,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                867.797,
+                838.377
+              ],
+              "distance": 23.8448,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                793.563,
+                675.267
+              ],
+              "distance": 44.0174,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                842.16,
+                782.045
+              ],
+              "distance": 52.0125,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                818.824,
+                730.77
+              ],
+              "distance": 71.7709,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                816.899,
+                726.542
+              ],
+              "distance": 79.766,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                844.461,
+                787.102
+              ],
+              "distance": 99.9386,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                870.888,
+                845.168
+              ],
+              "distance": 125.1278,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                770.313,
+                624.18
+              ],
+              "distance": 167.3457,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                795.574,
+                679.684
+              ],
+              "distance": 195.0991,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                821.211,
+                736.016
+              ],
+              "distance": 223.2669,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                893.966,
+                895.878
+              ],
+              "distance": 2.7097,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                867.797,
+                838.377
+              ],
+              "distance": 23.8448,
+              "threshold": 29.5,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 46,
+      "source_frame_id": 220,
+      "timestamp_ms": 9225.626740947075,
+      "frame_name": "frame_00046.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1197.3203125,
+              1536.1544189453125
+            ],
+            "upper": [
+              1057.9964599609375,
+              1213.64501953125
+            ]
+          },
+          "ranking": [
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                891.282,
+                827.73
+              ],
+              "distance": 1.9407,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                866.526,
+                770.425
+              ],
+              "distance": 25.0265,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                916.534,
+                886.185
+              ],
+              "distance": 27.2702,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                842.134,
+                713.962
+              ],
+              "distance": 51.5971,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                820.745,
+                664.45
+              ],
+              "distance": 73.2512,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                845.137,
+                720.913
+              ],
+              "distance": 99.8218,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                869.892,
+                778.219
+              ],
+              "distance": 126.789,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                895.381,
+                837.22
+              ],
+              "distance": 150.7414,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                799.434,
+                615.121
+              ],
+              "distance": 197.6404,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                823.826,
+                671.583
+              ],
+              "distance": 224.211,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                848.582,
+                728.889
+              ],
+              "distance": 251.1782,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                891.282,
+                827.73
+              ],
+              "distance": 1.9407,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                866.526,
+                770.425
+              ],
+              "distance": 25.0265,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                916.534,
+                886.185
+              ],
+              "distance": 27.2702,
+              "threshold": 30.0,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 47,
+      "source_frame_id": 225,
+      "timestamp_ms": 9426.183844011142,
+      "frame_name": "frame_00047.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1204.1033935546875,
+              1545.0806884765625
+            ],
+            "upper": [
+              1052.6136474609375,
+              1211.9327392578125
+            ]
+          },
+          "ranking": [
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                880.184,
+                832.736
+              ],
+              "distance": 10.2334,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                906.339,
+                890.253
+              ],
+              "distance": 16.3006,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                854.562,
+                776.387
+              ],
+              "distance": 38.3811,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                806.013,
+                669.621
+              ],
+              "distance": 57.6868,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                829.315,
+                720.867
+              ],
+              "distance": 66.1148,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                831.259,
+                725.141
+              ],
+              "distance": 85.4205,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                856.882,
+                781.49
+              ],
+              "distance": 113.5682,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                883.293,
+                839.572
+              ],
+              "distance": 138.7368,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                782.796,
+                618.564
+              ],
+              "distance": 181.0333,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                808.042,
+                674.084
+              ],
+              "distance": 208.767,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                833.665,
+                730.432
+              ],
+              "distance": 236.9147,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                880.184,
+                832.736
+              ],
+              "distance": 10.2334,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                906.339,
+                890.253
+              ],
+              "distance": 16.3006,
+              "threshold": 30.0,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 59,
+      "source_frame_id": 277,
+      "timestamp_ms": 11832.869080779945,
+      "frame_name": "frame_00059.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1180.015869140625,
+              1530.004638671875
+            ],
+            "upper": [
+              1062.6739501953125,
+              1272.191162109375
+            ]
+          },
+          "ranking": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                891.838,
+                896.846
+              ],
+              "distance": 0.3717,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                865.668,
+                839.347
+              ],
+              "distance": 26.1843,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                791.43,
+                676.237
+              ],
+              "distance": 41.6735,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                840.03,
+                783.016
+              ],
+              "distance": 54.3535,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                816.691,
+                731.739
+              ],
+              "distance": 69.4285,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                814.768,
+                727.514
+              ],
+              "distance": 82.1085,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                842.33,
+                788.07
+              ],
+              "distance": 97.5977,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                868.757,
+                846.134
+              ],
+              "distance": 122.7885,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                768.177,
+                625.148
+              ],
+              "distance": 165.0004,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                793.439,
+                680.65
+              ],
+              "distance": 192.7553,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                819.077,
+                736.981
+              ],
+              "distance": 220.9246,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                891.838,
+                896.846
+              ],
+              "distance": 0.3717,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                865.668,
+                839.347
+              ],
+              "distance": 26.1843,
+              "threshold": 29.5,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 61,
+      "source_frame_id": 285,
+      "timestamp_ms": 12200.557103064068,
+      "frame_name": "frame_00061.jpg",
+      "status": "single_candidate",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1193.309814453125,
+              1565.5562744140625
+            ],
+            "upper": [
+              1073.552490234375,
+              1307.5316162109375
+            ]
+          },
+          "ranking": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                884.516,
+                900.241
+              ],
+              "distance": 7.6992,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                782.347,
+                680.111
+              ],
+              "distance": 31.8027,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                858.004,
+                843.118
+              ],
+              "distance": 34.7233,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                807.932,
+                735.236
+              ],
+              "distance": 60.0094,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                832.037,
+                787.171
+              ],
+              "distance": 63.3511,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                833.899,
+                791.184
+              ],
+              "distance": 88.6372,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                806.451,
+                732.045
+              ],
+              "distance": 91.5578,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                860.678,
+                848.88
+              ],
+              "distance": 114.3007,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                758.331,
+                628.368
+              ],
+              "distance": 154.7096,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                783.917,
+                683.493
+              ],
+              "distance": 182.9164,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                809.884,
+                739.441
+              ],
+              "distance": 211.5441,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                884.516,
+                900.241
+              ],
+              "distance": 7.6992,
+              "threshold": 30.0,
+              "hit": true
+            }
+          ],
+          "status": "single_candidate",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 62,
+      "source_frame_id": 290,
+      "timestamp_ms": 12401.114206128133,
+      "frame_name": "frame_00062.jpg",
+      "status": "ambiguous_candidates",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1201.6202392578125,
+              1566.8572998046875
+            ],
+            "upper": [
+              1066.3292236328125,
+              1274.76416015625
+            ]
+          },
+          "ranking": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                891.383,
+                897.054
+              ],
+              "distance": 0.1295,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                864.906,
+                839.891
+              ],
+              "distance": 27.1041,
+              "threshold": 29.5,
+              "hit": true
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                789.399,
+                676.872
+              ],
+              "distance": 39.5629,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                838.973,
+                783.903
+              ],
+              "distance": 55.6835,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                814.95,
+                732.038
+              ],
+              "distance": 67.7219,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                813.422,
+                728.738
+              ],
+              "distance": 83.8425,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                840.883,
+                788.026
+              ],
+              "distance": 96.3012,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                867.625,
+                845.761
+              ],
+              "distance": 121.9148,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                765.465,
+                625.198
+              ],
+              "distance": 162.5146,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                791.016,
+                680.363
+              ],
+              "distance": 190.6736,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                816.949,
+                736.351
+              ],
+              "distance": 219.2529,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                891.383,
+                897.054
+              ],
+              "distance": 0.1295,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                864.906,
+                839.891
+              ],
+              "distance": 27.1041,
+              "threshold": 29.5,
+              "hit": true
+            }
+          ],
+          "status": "ambiguous_candidates",
+          "ray_index": 0
+        }
+      ]
+    },
+    {
+      "frame_id": 63,
+      "source_frame_id": 294,
+      "timestamp_ms": 12601.671309192201,
+      "frame_name": "frame_00063.jpg",
+      "status": "single_candidate",
+      "rays": [
+        {
+          "ray_local": {
+            "lower": [
+              1190.2867431640625,
+              1538.7391357421875
+            ],
+            "upper": [
+              1077.928466796875,
+              1301.5537109375
+            ]
+          },
+          "ranking": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                887.241,
+                899.018
+              ],
+              "distance": 4.7126,
+              "threshold": 30.0,
+              "hit": true
+            },
+            {
+              "key": "9",
+              "center": [
+                889.5,
+                828.5
+              ],
+              "foot": [
+                860.372,
+                842.298
+              ],
+              "distance": 32.2306,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "2",
+              "center": [
+                753.5,
+                693.5
+              ],
+              "foot": [
+                783.216,
+                679.423
+              ],
+              "distance": 32.8815,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "6",
+              "center": [
+                889.5,
+                760.5
+              ],
+              "foot": [
+                834.064,
+                786.761
+              ],
+              "distance": 61.3421,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "5",
+              "center": [
+                753.5,
+                760.5
+              ],
+              "foot": [
+                809.138,
+                734.144
+              ],
+              "distance": 61.5648,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "3",
+              "center": [
+                889.5,
+                693.5
+              ],
+              "foot": [
+                808.142,
+                732.041
+              ],
+              "distance": 90.0254,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "8",
+              "center": [
+                753.5,
+                828.5
+              ],
+              "foot": [
+                835.447,
+                789.681
+              ],
+              "distance": 90.6762,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "0",
+              "center": [
+                757.0,
+                897.0
+              ],
+              "foot": [
+                862.59,
+                846.98
+              ],
+              "distance": 116.8387,
+              "threshold": 30.0,
+              "hit": false
+            },
+            {
+              "key": "1",
+              "center": [
+                618.0,
+                693.5
+              ],
+              "foot": [
+                758.382,
+                626.999
+              ],
+              "distance": 155.3365,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "4",
+              "center": [
+                618.0,
+                760.5
+              ],
+              "foot": [
+                784.304,
+                681.719
+              ],
+              "distance": 184.0198,
+              "threshold": 29.5,
+              "hit": false
+            },
+            {
+              "key": "7",
+              "center": [
+                618.0,
+                828.5
+              ],
+              "foot": [
+                810.612,
+                737.257
+              ],
+              "distance": 213.1313,
+              "threshold": 29.5,
+              "hit": false
+            }
+          ],
+          "candidates": [
+            {
+              "key": "Del",
+              "center": [
+                891.5,
+                897.0
+              ],
+              "foot": [
+                887.241,
+                899.018
+              ],
+              "distance": 4.7126,
+              "threshold": 30.0,
+              "hit": true
+            }
+          ],
+          "status": "single_candidate",
+          "ray_index": 0
+        }
+      ]
+    }
+  ]
+}
