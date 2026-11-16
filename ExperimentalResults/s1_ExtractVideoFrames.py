@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-"""S1：按照时间间隔提取视频帧和元数据，默认每100ms提取一帧。"""
 
 from pathlib import Path
 from shareleaks_lib import discover_videos, split_one_video
@@ -11,12 +10,10 @@ def main(
     selected_labels=None,
     interval_ms=100,
 ):
-    # print(input_dir, selected_labels)
-    # exit()
     videos = discover_videos(input_dir, selected_labels or None)
 
     if not videos:
-        raise RuntimeError("没有找到符合条件的视频。")
+        raise RuntimeError("xxxxx No videos found in input directory.")
 
     for item in videos:
         video_path = Path(item["video_path"])

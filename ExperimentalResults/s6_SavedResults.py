@@ -82,36 +82,6 @@ def main(output):
             print(f'[SKIP] {path}: {exc}')
             skipped += 1
             continue
-
-    # columns = [('Label', 8), ('N', 5)]
-    # columns += [(f'C@{k}', 7) for k in char_ks]
-    # columns += [(f'S@{k}', 7) for k in string_ks]
-    # header = ' '.join(f'{name:>{width}}' for name, width in columns)
-    # print('\n' + header)
-    # print('-' * len(header))
-
-    # overall = {'chars': 0, 'strings': 0,
-    #            'char_hits': defaultdict(int), 'string_hits': defaultdict(int)}
-
-    # def print_row(label, row):
-    #     values = [label, str(row['strings'])]
-    #     values += [f"{100 * row['char_hits'][k] / row['chars']:.1f}" if row['chars'] else 'N/A'
-    #                for k in char_ks]
-    #     values += [f"{100 * row['string_hits'][k] / row['strings']:.1f}" if row['strings'] else 'N/A'
-    #                for k in string_ks]
-    #     print(' '.join(f'{v:>{width}}' for v, (_, width) in zip(values, columns)))
-
-    # for label, row in sorted(stats.items()):
-    #     print_row(label, row)
-    #     overall['chars'] += row['chars']
-    #     overall['strings'] += row['strings']
-    #     for k in char_ks:
-    #         overall['char_hits'][k] += row['char_hits'][k]
-    #     for k in string_ks:
-    #         overall['string_hits'][k] += row['string_hits'][k]
-    # print('-' * len(header))
-    # print_row('OVERALL', overall)
-    # print(f'\nFiles found: {len(paths)}; skipped: {skipped}; evaluated strings: {len(paths) - skipped}')
     save_trial_results(root, trial_rows, char_ks, string_ks)
 
 if __name__ == '__main__':

@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""S3: planar test-grid geometry (labeled cells), no PIN interpretation.
 
-Input: S2_detections.json (unchanged).
-Output: S3_key_candidates.json (blue frames only), S3_mapping_debug/ (paired images).
-Reads arbitrary cell labels from --layout, no label names are hard-coded.
-"""
 from pathlib import Path
 import cv2
 import numpy as np

@@ -3,7 +3,7 @@
 import argparse
 import math
 from shareleaks_lib import (video_directories, read_csv, read_image, detect_blue_ray,
-                           detect_keyboard, draw_detection, save_image, write_json, get_key_area_corners, ray_intersects_keyboard, select_ray_by_keyboard)
+                           detect_keyboard, draw_detection, save_image, write_json, select_ray_by_keyboard)
 
 def main(tmp_str = '', save_dir='shareleaks_results', debug=True):
     for directory in video_directories(save_dir):

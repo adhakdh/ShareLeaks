@@ -1,32 +1,5 @@
 
 # -*- coding: utf-8 -*-
-"""
-S5: Event-level key ranking based on RMS Distance.
-
-Inputs:
-    S3_key_candidates.json
-    S4_key_events.csv
-
-Outputs:
-    S5_key_candidates_cleaned.json
-    S5_log.txt
-
-Method:
-    1. Read all blue frames of each event from S4.
-    2. Extract candidate distances from S3.
-    3. Calculate RMS Distance for every candidate key.
-    4. Rank all candidates by RMS Distance.
-    5. Mark the best candidate with hit=True.
-
-    RMS = sqrt(sum(distance^2) / N)
-
-    No original hit-based filtering is applied.
-    No candidate distance is forced to zero.
-
-Usage:
-    python s6_rebuilt.py --output shareleaks_results
-"""
-
 import argparse
 import csv
 import json
