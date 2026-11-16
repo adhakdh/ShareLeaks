@@ -6,11 +6,7 @@ Due to repository storage limitations, the original XR first-person-view (FPV) r
 
 ## 1. Dataset Download
 
-The complete video dataset is available at:
-
-**[Download ShareLeaks Dataset (Google Drive)](https://drive.google.com/file/d/1RuArdKcFwE7eOoEd4JI-TejL1I6A2qlK/view?usp=drive_link)**
-
-Alternatively, the dataset can be downloaded automatically using the provided Python script.
+The complete video dataset is available at Google Drive. The dataset can be downloaded automatically using the provided Python script.
 
 First, install the required dependency:
 
